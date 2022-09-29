@@ -1,0 +1,21 @@
+﻿<Window x:Class="WPF_ZARUBIN_PR2.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WPF_ZARUBIN_PR2"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <RadioButton GroupName="Boot" x:Name="RadioButton_Boot1" Checked="RadioButton_Checked" Content="Загрузиться с жесткого диска" HorizontalAlignment="Left" Margin="55,27,0,0" VerticalAlignment="Top"/>
+        <RadioButton GroupName="Boot" x:Name="RadioButton_Boot2" Checked="RadioButton_Checked" Content="Загрузиться с DVD привода" HorizontalAlignment="Left" Margin="55,45,0,0" VerticalAlignment="Top"/>
+        <RadioButton GroupName="Boot" x:Name="RadioButton_Boot3" Checked="RadioButton_Checked" Content="Установить операционную систему" HorizontalAlignment="Left" Margin="55,62,0,0" VerticalAlignment="Top"/>
+        <RadioButton GroupName="Languages" Content="C#" IsChecked="true" Checked="RadioButton_Checked" HorizontalAlignment="Left" Margin="55,80,0,0" VerticalAlignment="Top"/>
+        <RadioButton GroupName="Languages" Content="VB.NET" Checked="RadioButton_Checked" HorizontalAlignment="Left" Margin="55,98,0,0" VerticalAlignment="Top"/>
+        <RadioButton GroupName="Languages" Content="C++" Checked="RadioButton_Checked" HorizontalAlignment="Left" Margin="55,116,0,0" VerticalAlignment="Top"/>
+        <RadioButton GroupName="Technologies" Content="WPF" IsChecked="True" Checked="RadioButton_Checked" HorizontalAlignment="Left" Margin="55,132,0,0" VerticalAlignment="Top"/>
+        <RadioButton GroupName="Technologies" Content="WinForms" HorizontalAlignment="Left" Margin="55,148,0,0" VerticalAlignment="Top"/>
+        <RadioButton GroupName="Technologies" Content="ASP.NET" HorizontalAlignment="Left" Margin="55,165,0,0" VerticalAlignment="Top"/>
+
+    </Grid>
+</Window>
