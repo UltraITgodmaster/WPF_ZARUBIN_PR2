@@ -7,15 +7,13 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        <RadioButton GroupName="Boot" x:Name="RadioButton_Boot1" Checked="RadioButton_Checked" Content="Загрузиться с жесткого диска" HorizontalAlignment="Left" Margin="55,27,0,0" VerticalAlignment="Top"/>
-        <RadioButton GroupName="Boot" x:Name="RadioButton_Boot2" Checked="RadioButton_Checked" Content="Загрузиться с DVD привода" HorizontalAlignment="Left" Margin="55,45,0,0" VerticalAlignment="Top"/>
-        <RadioButton GroupName="Boot" x:Name="RadioButton_Boot3" Checked="RadioButton_Checked" Content="Установить операционную систему" HorizontalAlignment="Left" Margin="55,62,0,0" VerticalAlignment="Top"/>
-        <RadioButton GroupName="Languages" Content="C#" IsChecked="true" Checked="RadioButton_Checked" HorizontalAlignment="Left" Margin="55,80,0,0" VerticalAlignment="Top"/>
-        <RadioButton GroupName="Languages" Content="VB.NET" Checked="RadioButton_Checked" HorizontalAlignment="Left" Margin="55,98,0,0" VerticalAlignment="Top"/>
-        <RadioButton GroupName="Languages" Content="C++" Checked="RadioButton_Checked" HorizontalAlignment="Left" Margin="55,116,0,0" VerticalAlignment="Top"/>
-        <RadioButton GroupName="Technologies" Content="WPF" IsChecked="True" Checked="RadioButton_Checked" HorizontalAlignment="Left" Margin="55,132,0,0" VerticalAlignment="Top"/>
-        <RadioButton GroupName="Technologies" Content="WinForms" HorizontalAlignment="Left" Margin="55,148,0,0" VerticalAlignment="Top"/>
-        <RadioButton GroupName="Technologies" Content="ASP.NET" HorizontalAlignment="Left" Margin="55,165,0,0" VerticalAlignment="Top"/>
-
+        <Button Width="60" Height="30" Content="Цвет" FontSize="20">
+            <Button.Background>
+                <SolidColorBrush Color="LightGray"/>
+            </Button.Background>
+            <Button.Foreground>
+                <SolidColorBrush Color="DarkRed"/>
+            </Button.Foreground>
+        </Button>
     </Grid>
 </Window>
